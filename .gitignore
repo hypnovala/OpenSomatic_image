@@ -1,0 +1,17 @@
+# Secrets
+.env
+*.env
+agents/**/auth-profiles.json
+**/*secrets*.json
+**/*keys*.json
+
+# OpenClaw generated outputs (never commit)
+shared/daily/
+shared/**/reels/**/images/
+shared/**/reels/**/videos/
+shared/**/reels/**/assets/
+
+# OS / tooling
+.DS_Store
+node_modules/
+.cache/
